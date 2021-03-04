@@ -1,10 +1,10 @@
 <?php
 
-namespace Vapest\LaravelApiResponse;
+namespace Pyskunov\LaravelApiResponse;
 
 use Illuminate\Http\JsonResponse;
 use \Illuminate\Support\ServiceProvider;
-use Vapest\LaravelApiResponse\Mixins\JsonResponseMixinInterface;
+use Pyskunov\LaravelApiResponse\Mixins\JsonResponseMixinInterface;
 
 class LaravelApiResponseServiceProvider extends ServiceProvider
 {

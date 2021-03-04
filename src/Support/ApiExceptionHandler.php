@@ -1,6 +1,6 @@
 <?php
 
-namespace Vapest\LaravelApiResponse\Support;
+namespace Pyskunov\LaravelApiResponse\Support;
 
 use Throwable;
 use Illuminate\Http\Request;

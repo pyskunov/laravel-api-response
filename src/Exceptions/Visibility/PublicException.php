@@ -1,10 +1,10 @@
 <?php
 
-namespace Vapest\LaravelApiResponse\Exceptions\Visibility;
+namespace Pyskunov\LaravelApiResponse\Exceptions\Visibility;
 
 use Throwable;
 use Illuminate\Http\Response;
-use Vapest\LaravelApiResponse\Support\StatusCodes;
+use Pyskunov\LaravelApiResponse\Support\StatusCodes;
 
 class PublicException extends VisibilityException
 {

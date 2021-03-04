@@ -2,10 +2,10 @@
 
 namespace Illuminate\Http
 {
-    use Vapest\LaravelApiResponse\Support\StatusCodes;
-    use Vapest\LaravelApiResponse\Mixins\JsonResponseMixin;
-    use Vapest\LaravelApiResponse\Exceptions\Visibility\PublicException;
-    use Vapest\LaravelApiResponse\Exceptions\Visibility\PrivateException;
+    use Pyskunov\LaravelApiResponse\Support\StatusCodes;
+    use Pyskunov\LaravelApiResponse\Mixins\JsonResponseMixin;
+    use Pyskunov\LaravelApiResponse\Exceptions\Visibility\PublicException;
+    use Pyskunov\LaravelApiResponse\Exceptions\Visibility\PrivateException;
     use Throwable;
 
     class JsonResponse

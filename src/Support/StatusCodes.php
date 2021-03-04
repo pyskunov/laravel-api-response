@@ -1,6 +1,6 @@
 <?php
 
-namespace Vapest\LaravelApiResponse\Support;
+namespace Pyskunov\LaravelApiResponse\Support;
 
 class StatusCodes
 {

@@ -1,5 +1,5 @@
 {
-    "name": "vapest/laravel-api-response",
+    "name": "pyskunov/laravel-api-response",
     "description": "JsonResponse Mixins",
     "type": "package",
     "license": "MIT",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Vapest\\LaravelApiResponse\\": "src/"
+            "Pyskunov\\LaravelApiResponse\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vapest\\LaravelApiResponse\\LaravelApiResponseServiceProvider"
+                "Pyskunov\\LaravelApiResponse\\LaravelApiResponseServiceProvider"
             ]
         }
     }

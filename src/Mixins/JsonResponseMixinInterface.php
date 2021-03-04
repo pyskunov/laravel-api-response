@@ -1,6 +1,6 @@
 <?php
 
-namespace Vapest\LaravelApiResponse\Mixins;
+namespace Pyskunov\LaravelApiResponse\Mixins;
 
 interface JsonResponseMixinInterface
 {

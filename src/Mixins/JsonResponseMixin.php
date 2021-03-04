@@ -1,13 +1,13 @@
 <?php
 
-namespace Vapest\LaravelApiResponse\Mixins;
+namespace Pyskunov\LaravelApiResponse\Mixins;
 
 use Throwable;
 use Illuminate\Http\Response;
 use Illuminate\Http\JsonResponse;
-use Vapest\LaravelApiResponse\Support\StatusCodes;
-use Vapest\LaravelApiResponse\Exceptions\Visibility\PublicException;
-use Vapest\LaravelApiResponse\Exceptions\Visibility\PrivateException;
+use Pyskunov\LaravelApiResponse\Support\StatusCodes;
+use Pyskunov\LaravelApiResponse\Exceptions\Visibility\PublicException;
+use Pyskunov\LaravelApiResponse\Exceptions\Visibility\PrivateException;
 
 class JsonResponseMixin
 {

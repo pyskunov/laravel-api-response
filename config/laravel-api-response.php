@@ -2,6 +2,6 @@
 
 return [
     'mixins' => [
-        'class' => \Vapest\LaravelApiResponse\Mixins\JsonResponseMixin::class,
+        'class' => \Pyskunov\LaravelApiResponse\Mixins\JsonResponseMixin::class,
     ],
 ];

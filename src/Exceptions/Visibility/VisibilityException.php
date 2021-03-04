@@ -1,12 +1,12 @@
 <?php
 
-namespace Vapest\LaravelApiResponse\Exceptions\Visibility;
+namespace Pyskunov\LaravelApiResponse\Exceptions\Visibility;
 
 use Exception;
 use Throwable;
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
-use Vapest\LaravelApiResponse\Support\StatusCodes;
+use Pyskunov\LaravelApiResponse\Support\StatusCodes;
 
 abstract class VisibilityException extends Exception
 {
