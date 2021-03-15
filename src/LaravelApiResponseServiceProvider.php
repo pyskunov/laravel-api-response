@@ -22,7 +22,6 @@ class LaravelApiResponseServiceProvider extends ServiceProvider
         $this->publishes(
             [
                 __DIR__ . '/../config/laravel-api-response.php' => config_path('laravel-api-response.php'),
-                __DIR__ . '/LaravelApiResponseServiceProvider.php' => app_path('Providers/LaravelApiResponseServiceProvider.php'),
             ]
         );
 
