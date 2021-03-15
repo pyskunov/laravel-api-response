@@ -1,6 +1,7 @@
 {
     "name": "pyskunov/laravel-api-response",
     "description": "JsonResponse Mixins",
+    "version": "1.0.0",
     "type": "package",
     "license": "MIT",
     "authors": [
